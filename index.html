@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prachi Negi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="">
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="nav-logo">Prachi Negi</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-links active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-links">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-links">Projects</a></li>
+            </ul>
+            <div class="theme-switcher">
+                <button id="theme-toggle">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Prachi Negi - Software Engineer<br>- <span class="highlight">Building Modern</span><span id="typing-text"> Web Applications.</span><span class="cursor">|</span></h1>
+                    <p class="contact-info">
+                        <a href="mailto:prachinegi1001@gmail.com">prachinegi1001@gmail.com</a> | +91 9971040412
+                    </p>
+                    <img src="photo/photo_2025-06-22_19-34-21.jpg" alt="Prachi Negi" class="profile-pic">
+                    <div class="connect-container">
+                        <a href="https://www.linkedin.com/in/prachi-negi-464056227/" class="cta-button" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/Prachin1001" class="social-icon" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                        </a>
+                      
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Third-year B.Tech Computer Science student with a solid foundation in Data Structures & Algorithms, front-end development, and problem-solving. Known for quick adaptability, analytical thinking, and a strong drive to learn and grow. Passionate about leveraging both technical and interpersonal skills to contribute to data-driven decision-making and strategic innovation. A collaborative team player who thrives in dynamic environments and aims to create meaningful impact through technology.</p>
+            </section>
+
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <div class="experience-item">
+                    <h3>AICTE Google Android Developer Virtual Internship — <span>Google, Remote</span></h3>
+                    <p class="experience-date">June 2023 – Aug 2023</p>
+                    <ul>
+                        <li>Created 3 Android applications using Kotlin/Jetpack and Firebase, reducing app latency by 60% with 4.7/5 average rating.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>Tasty Bite</h3>
+                        <p>A responsive recipe platform enabling dynamic browsing and filtering of dishes across devices. Built with HTML, CSS (Flexbox Grid), and JavaScript to deliver smooth, adaptive layouts on desktop and mobile. Deployed on GitHub Pages; implemented dynamic filtering and optimized asset loading to improve performance.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Job Application Tracker</h3>
+                        <p>Full-stack web application for tracking job applications with role-based access and real-time updates. Developed a MERN stack platform enabling users to manage personal job applications and admins to oversee all entries via a dedicated dashboard. Implemented JWT authentication, protected routes, and role-based access control to ensure secure user operations. Integrated Socket.IO for real-time updates and personalized notifications upon job status changes. Designed a responsive and filterable UI using React and Material-UI, with dashboards tailored to user roles.</p>
+                    </div>
+                     <div class="project-card">
+                        <h3>LLM-Powered Flashcard Generator</h3>
+                        <p>Streamlit-based web app that uses GPT-3.5-turbo to convert educational content into intelligent flashcards. Built a full-stack flashcard generator enabling users to input text or PDF content and generate topic-grouped Q&A flashcards. Integrated OpenAI GPT-3.5-turbo via LangChain to produce flashcards with difficulty levels, multilingual support, and subject guidance. Developed a clean Streamlit interface supporting editing and exporting to CSV, JSON, and Anki-compatible formats. Modularized core logic into reusable components handling file processing, LLM prompting, and export utilities.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Voice Assistant</h3>
+                        <p>AI-driven voice assistant offering real-time command execution via NLP and speech recognition APIs. Integrated speech-to-text and text-to-speech modules, enabling natural interaction with users. Implemented API integrations (e.g., weather, Wikipedia) to respond dynamically to user queries. Built a modular command parser and handler system to facilitate easy addition of new voice commands and ensure testability.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Galgotias University</h3>
+                    <p>Bachelor of Technology in Computer Science and Engineering — CGPA: 8.9/10</p>
+                    <p>2022 – Present | Greater Noida, India</p>
+                </div>
+                <div class="education-item">
+                    <h3>Awachin Bharti Bhawan</h3>
+                    <p>AISSCE (Class XII), Aggregate: 80%</p>
+                    <p>2021 – 2022 | Delhi, India</p>
+                </div>
+                <div class="education-item">
+                    <h3>Awachin Bharti Bhawan</h3>
+                    <p>AISSE (Class X), Aggregate: 82%</p>
+                    <p>2019 – 2020 | Delhi, India</p>
+                </div>
+            </section>
+            
+             <section id="skills">
+                <h2>Technical Skills</h2>
+                 <div class="leetcode-stats">
+                    <a href="https://leetcode.com/u/prachi_negiii/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://leetcode-stats.vercel.app/api?username=prachi_negiii&amp;theme=dark" alt="Prachi Negi's LeetCode Stats">
+                    </a>
+                </div>
+                 <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Languages</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Frameworks</h4>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Tkinter</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Databases &amp; Tools</h4>
+                        <ul>
+                            <li>MySQL, PostgreSQL, MongoDB</li>
+                            <li>Git, GitHub, VS Code, IntelliJ, Eclipse</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Competitive Programming</h4>
+                        <p>Solved 300+ problems on LeetCode and GeeksforGeeks</p>
+                    </div>
+                 </div>
+            </section>
+            
+            <section id="certifications">
+                <h2>Certifications &amp; Achievements</h2>
+                <ul>
+                    <li><b>AWS Cloud Virtual Internship (2023):</b> Hands-on with 8 AWS services.</li>
+                    <li><b>EduSkill Android Developer Program (2023):</b> Completed 120+ hours of Android dev training.</li>
+                    <li><b>Oracle Academy – SQL (2022):</b> 95% in advanced SQL certification.</li>
+                    <li><b>Oracle Java Programming (2022), Cisco Computer Networks (2023):</b> 90%+ in assessments.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+</body></html> 
